@@ -1,0 +1,136 @@
+
+.home-header {
+  text-align: center;
+  /* display: flex; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-left: 0.5rem; /* Equivalent to 2 in Tailwind */
+  padding-right: 0.5rem;
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
+  /* height: 10rem; */
+  width: 100%;
+}
+
+.home-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+.home-header .searchBar-wrap {
+  justify-self: end;
+
+  width: 100%;
+  /* max-width: calc(100% - 4rem); */
+  /* margin: auto 2rem auto 2rem; */
+  /* width: fit-content; */
+}
+
+@media (max-width: 768px) {
+  .home-header{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-home {
+    /* display: none; */
+    color: #3B3C4A;
+    font-size: 20px;
+    justify-self: end;
+    padding-right: 30px;
+    margin: auto 0 auto 2rem;
+
+  }
+
+  .home-header .searchBar-wrap {
+    /* grid-column-start: 1; */
+    /* grid-column-end: span col4-start; */
+    /* background-color: aqua; */
+    justify-self: end;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    max-width: calc(100% - 4rem);
+    margin: auto 2rem auto 2rem;
+    /* width: fit-content; */
+  }
+}
+/* 
+@media (max-width: 600px) {
+  .blogList-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Adjust gap value as needed */
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .home-header{
+    padding-left: 2rem; 
+    padding-right: 2rem;
+  }
+
+  .header__logo {
+    gap: 70px;
+  }
+
+}
+.text-blog {
+  color: #141624;
+}
+.text-home {
+  color: #3B3C4A;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+.text-2xl {
+  font-size: 1.75rem; /* Adjust font size as needed */
+}
+
+/* .home-header h2 {
+  color: #0080ff;
+  font-size: 2rem;
+}  */
+
+/* .home-header h1 {
+  font-size: 3rem;
+  color: #0f52ba;
+  margin-bottom: 1rem;
+} */
+
+/* .home-header h1 span {
+  color: #b0c4de;
+} */
+/* 
+.home-header p {
+  color: #a9a9a9;
+  font-weight: 500;
+} */
