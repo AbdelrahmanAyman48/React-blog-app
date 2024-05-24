@@ -1,3 +1,46 @@
+# Blog
+
+  <img  src="src/assets/Image.png" alt="Home">
+
+This project showcases my skills in web development and design. It is a platform that provides users with access to a wide range of articles from various categories. The application is built using React, Vite, Tailwind CSS, Material-UI, and custom hooks, delivering a seamless and responsive experience.
+
+## [🌟Live Website🌟](https://react-blog-app-henna.vercel.app/)
+
+##  [ Design on Figma ](https://www.figma.com/file/Pz9qMF1LLYVwvrbCRixGv1/Almdrasa-blog-ui?type=design&node-id=1-2&mode=design&t=q1hE1xSiE6pNRrDP-0)
+
+
+
+## Screenshots
+  <img  src="https://github.com/MMansy19/Blog/blob/main/src/assets/1.png" alt="Home">
+
+  
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
+
+## Features
+
+- **Search Bar**: Users can easily search for articles by keywords.
+- **Load More Articles**: Infinite scrolling functionality allows users to load more articles dynamically.
+- **Responsive Design**: The application is fully responsive, ensuring optimal user experience across various devices.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Fast, modern build tooling for frontend development.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Material-UI**: React components for faster and easier web development.
+- **Custom Hooks**: Utilized custom React hooks for managing state and logic efficiently.
+
+
+## Contact
+
+- Website - [abdelrahmanayman48](https://)
+- Github - [AbdelrahmanAyman48](https://github.com/AbdelrahmanAyman48/calculator-web-app)
+- Linkedin - [Abdelrahman-Ayman](https://www.linkedin.com/in/abdelrahman-ayman-290674252/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
