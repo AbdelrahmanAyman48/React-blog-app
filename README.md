@@ -4,7 +4,7 @@
 
 This project showcases my skills in web development and design. It is a platform that provides users with access to a wide range of articles from various categories. The application is built using React, Vite, Tailwind CSS, Material-UI, and custom hooks, delivering a seamless and responsive experience.
 
-## [🌟Live Website🌟](https://react-blog-app-henna.vercel.app/](https://react-blog-app-rx12-oiipl11sv-abs-projects-a0d3e74b.vercel.app/)
+## [🌟Live Website🌟](https://react-blog-app-rx12-oiipl11sv-abs-projects-a0d3e74b.vercel.app/)
 
 ##  [ Design on Figma ](https://www.figma.com/file/Pz9qMF1LLYVwvrbCRixGv1/Almdrasa-blog-ui?type=design&node-id=1-2&mode=design&t=q1hE1xSiE6pNRrDP-0)
 
